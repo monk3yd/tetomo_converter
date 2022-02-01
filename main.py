@@ -1,3 +1,4 @@
+print("Welcome to the Text to Morse Code Converter CLI")
 
 # Write letter (key) to morse code (value) dict
 text_to_morse_dict = {'a': '.-', 'b': '-...', 'c': '-.-.', 'd': '-..', 'e': '.',
@@ -20,4 +21,4 @@ morse_code = [text_to_morse_dict[char] for char in plain_text]
 
 # Transform list with each character of morse into string
 result = " ".join(morse_code)
-print(result)
+print(f"The morse code of the inputted text is: {result}")
